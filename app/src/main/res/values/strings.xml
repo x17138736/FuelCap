@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Fuel Cap</string>
+
+    <!-- Main Activity Language ID's -->
+    <string name="email">Email</string>
+    <string name="pword">Password</string>
+    <string name="login">Login</string>
+    <string name="incorrect">No of incorrect attempts:</string>
+    <string name="sUp">SignUp</string>
+    <string name="forPword">Forgot Password</string>
+    <string name="changeLang">Change Language</string>
 </resources>

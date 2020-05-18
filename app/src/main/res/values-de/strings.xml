@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tankdeckel</string>
+
+
+    <!-- Main Activity Language ID's -->
+    <string name="email">Email</string>
+    <string name="pword">Passwort</string>
+    <string name="login">Anmeldung</string>
+    <string name="incorrect">Anzahl falscher Versuche:</string>
+    <string name="sUp">Anmelden</string>
+    <string name="forPword">Passwort vergessen</string>
+    <string name="changeLang">Sprache ändern</string>
+</resources>

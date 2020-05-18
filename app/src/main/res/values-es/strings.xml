@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tapa de combustible</string>
+
+    <!-- Main Activity Language ID's -->
+    <string name="email">Correo electrónico</string>
+    <string name="pword">Contraseña</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="incorrect">No de intentos incorrectos:</string>
+    <string name="sUp">Regístrate</string>
+    <string name="forPword">Se te olvidó tu contraseña</string>
+    <string name="changeLang">Cambiar idioma</string>
+</resources>
