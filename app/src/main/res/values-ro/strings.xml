@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Capac de combustibil</string>
+
+    <!-- Main Activity Language ID's -->
+    <string name="email">E-mail</string>
+    <string name="pword">Parola</string>
+    <string name="login">Autentificare</string>
+    <string name="incorrect">Nr de încercări incorecte:</string>
+    <string name="sUp">Inscrie-te</string>
+    <string name="forPword">Ați uitat parola</string>
+    <string name="changeLang">Schimbă limba</string>
+    <string name="stayCoo">Rămâneți la rece până când sunteți confirmat!</string>
+    <string name="logFail">Autentificare esuata</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ईंधन टोपी</string>
+
+    <!-- Main Activity Language ID's -->
+    <string name="email">ईमेल</string>
+    <string name="pword">कुंजिका</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="incorrect">कोई गलत प्रयास नहीं:</string>
+    <string name="sUp">साइन अप करें</string>
+    <string name="forPword">पासवर्ड भूल गए</string>
+    <string name="changeLang">भाषा बदलो</string>
+    <string name="stayCoo">जब तक आप सत्यापित नहीं हो जाते तब तक शांत रहें!</string>
+    <string name="logFail">लॉगिन विफल</string>
+</resources>

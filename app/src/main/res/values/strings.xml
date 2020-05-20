@@ -9,4 +9,8 @@
     <string name="sUp">SignUp</string>
     <string name="forPword">Forgot Password</string>
     <string name="changeLang">Change Language</string>
+    <string name="stayCoo">Stay cool until you are verified!</string>
+    <string name="logFail">Login Failed</string>
+
+
 </resources>

@@ -10,4 +10,8 @@
     <string name="sUp">Regístrate</string>
     <string name="forPword">Se te olvidó tu contraseña</string>
     <string name="changeLang">Cambiar idioma</string>
+    <string name="stayCoo">¡Manténgase fresco hasta que sea verificado!</string>
+    <string name="logFail">error de inicio de sesion</string>
+
+
 </resources>

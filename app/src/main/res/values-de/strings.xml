@@ -11,4 +11,7 @@
     <string name="sUp">Anmelden</string>
     <string name="forPword">Passwort vergessen</string>
     <string name="changeLang">Sprache ändern</string>
+    <string name="stayCoo">Bleib cool, bis du verifiziert bist!</string>
+    <string name="logFail">Anmeldungsfehler</string>
+
 </resources>

@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         userRegistration = (TextView)findViewById(R.id.tvRegister);
         forgotPassword = (TextView)findViewById(R.id.tvForgotPassword);
 
-        Info.setText("No of attempts remaining: 3");
+        Info.setText("No of attempts remaining: " + counter);
 
         firebaseAuth = FirebaseAuth.getInstance();
         progressDialog = new ProgressDialog(this);
@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void showChangeLanguageDialog() {
         // Languages that are available to use
-        final String[] listItems = {"Deutsche", "Español", "English"};
+        final String[] listItems = {"Deutsche", "Español", "Română", "हिन्दी", "English"};
         AlertDialog.Builder mBuilder = new AlertDialog.Builder(MainActivity.this);
         mBuilder.setTitle("Choose Your Language..");
         mBuilder.setSingleChoiceItems(listItems, -1, new DialogInterface.OnClickListener() {
@@ -116,6 +116,16 @@ public class MainActivity extends AppCompatActivity {
                     recreate();
                 }
                 else if (i==2){
+                    // Choose Romanian
+                    setLocale("ro");
+                    recreate();
+                }
+                else if (i==3){
+                    // Choose Hindi
+                    setLocale("hi");
+                    recreate();
+                }
+                else if (i==4){
                     // Choose English
                     setLocale("en");
                     recreate();
@@ -152,7 +162,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void validate (String userName, String userPassword) {
 
-        progressDialog.setMessage("Stay cool until you are verified!");
+        progressDialog.setMessage(getString(R.string.stayCoo));
         progressDialog.show();
 
         firebaseAuth.signInWithEmailAndPassword(userName, userPassword).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
@@ -163,9 +173,9 @@ public class MainActivity extends AppCompatActivity {
                     checkEmailVerification();
 
                 } else {
-                    Toast.makeText(MainActivity.this, "Login Failed", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, R.string.logFail, Toast.LENGTH_SHORT).show();
                     counter--;
-                    Info.setText("No of attempts remaining: " + counter);
+                    Info.setText("No of incorrect attempts:"+ counter);
                     progressDialog.dismiss();
                     if (counter == 0) {
                         Login.setEnabled(false);
