@@ -162,7 +162,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void validate (String userName, String userPassword) {
 
-        progressDialog.setMessage(getString(R.string.stayCoo));
+        progressDialog.setMessage("Stay cool until you are verified!");
         progressDialog.show();
 
         firebaseAuth.signInWithEmailAndPassword(userName, userPassword).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
@@ -173,7 +173,7 @@ public class MainActivity extends AppCompatActivity {
                     checkEmailVerification();
 
                 } else {
-                    Toast.makeText(MainActivity.this, R.string.logFail, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Login Failed", Toast.LENGTH_SHORT).show();
                     counter--;
                     Info.setText("No of incorrect attempts:"+ counter);
                     progressDialog.dismiss();

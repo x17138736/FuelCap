@@ -7,15 +7,63 @@
     tools:context=".SecondActivity">
 
     <Button
+        android:id="@+id/btnMaps"
+        android:layout_width="280dp"
+        android:layout_height="75dp"
+        android:text="@string/maps"
+        app:layout_constraintBottom_toTopOf="@+id/btnEVChargePoints"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.936" />
+
+    <Button
+        android:id="@+id/btnEVChargePoints"
+        android:layout_width="280dp"
+        android:layout_height="75dp"
+        android:text="@string/ev_charge_points"
+        app:layout_constraintBottom_toTopOf="@+id/btnReview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnReview"
+        android:layout_width="280dp"
+        android:layout_height="75dp"
+        android:text="@string/review"
+        app:layout_constraintBottom_toTopOf="@+id/btnContactUs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnContactUs"
+        android:layout_width="280dp"
+        android:layout_height="75dp"
+        android:text="Contact_Us"
+        app:layout_constraintBottom_toTopOf="@+id/btnLogout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
         android:id="@+id/btnLogout"
         android:layout_width="280dp"
-        android:layout_height="81dp"
-        android:text="Logout"
+        android:layout_height="75dp"
+        android:text="@string/logout"
         android:textColor="#3F51B5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.566"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.992" />
+        app:layout_constraintVertical_bias="0.964" />
 </androidx.constraintlayout.widget.ConstraintLayout>

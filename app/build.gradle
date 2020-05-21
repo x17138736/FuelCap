@@ -37,3 +37,23 @@ dependencies {
     implementation 'com.google.android.gms:play-services-auth:18.0.0'
 
 }
+
+dependencies {
+    implementation 'com.google.android.gms:play-services-maps:+'
+    implementation 'androidx.appcompat:appcompat:+'
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:+'
+    implementation 'androidx.constraintlayout:constraintlayout:+'
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:+'
+    implementation 'androidx.constraintlayout:constraintlayout:+'
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:+'
+    implementation 'androidx.constraintlayout:constraintlayout:+'
+}

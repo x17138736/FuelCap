@@ -15,6 +15,10 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class SecondActivity extends AppCompatActivity {
 
+    private Button Maps;
+    private Button EVChargePoints;
+    private Button Review;
+    private Button ContactUs;
     private FirebaseAuth firebaseAuth;
     private Button logout;
 
@@ -23,9 +27,39 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-        firebaseAuth=FirebaseAuth.getInstance();
-
+        Maps=(Button) findViewById(R.id.btnMaps);
+        EVChargePoints=(Button) findViewById(R.id.btnEVChargePoints);
+        Review=(Button) findViewById(R.id.btnReview);
+        ContactUs=(Button) findViewById(R.id.btnContactUs);
         logout=(Button) findViewById(R.id.btnLogout);
+
+
+        Maps.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openMaps();
+            }
+        });
+        EVChargePoints.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openEVChargePoints();
+            }
+        });
+        Review.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openReview();
+            }
+        });
+        ContactUs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openContactUs();
+            }
+        });
+
+        firebaseAuth=FirebaseAuth.getInstance();
 
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,7 +69,29 @@ public class SecondActivity extends AppCompatActivity {
         });
 
     }
+    private void openMaps () {
+        Intent intent=new Intent(SecondActivity.this, Maps.class);
+        startActivity(intent);
 
+    }
+
+    private void openEVChargePoints () {
+        Intent intent=new Intent(SecondActivity.this, EVChargePoints.class);
+        startActivity(intent);
+
+    }
+
+    private void openReview () {
+        Intent intent=new Intent(SecondActivity.this, Review.class);
+        startActivity(intent);
+
+    }
+
+    private void openContactUs () {
+        Intent intent=new Intent(SecondActivity.this, ContactUs.class);
+        startActivity(intent);
+
+    }
     private void Logout () {
         firebaseAuth.signOut();
         finish();

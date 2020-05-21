@@ -9,8 +9,11 @@
     <string name="sUp">SignUp</string>
     <string name="forPword">Forgot Password</string>
     <string name="changeLang">Change Language</string>
-    <string name="stayCoo">Stay cool until you are verified!</string>
-    <string name="logFail">Login Failed</string>
-
-
+    <string name="logout">Logout</string>
+    <string name="review_page">Review Page</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="languages">Languages</string>
+    <string name="maps">Maps</string>
+    <string name="ev_charge_points">EV_Charge_Points</string>
+    <string name="review">Review</string>
 </resources>
