@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
@@ -33,12 +34,11 @@ public class MainActivity extends AppCompatActivity {
     private TextView Info;
     private Button Login;
     private int counter = 3;
-    private TextView userRegistration;
     private FirebaseAuth firebaseAuth;
     private ProgressDialog progressDialog;
-    private TextView forgotPassword;
 
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
         //change the action bar title.
         ActionBar actionBar = getSupportActionBar();
+        assert actionBar != null;
         actionBar.setTitle(getResources().getString(R.string.app_name));
         
         Button changeLang = findViewById(R.id.chang_Lang);
@@ -58,12 +59,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Name = (EditText)findViewById(R.id.etName);
-        Password = (EditText)findViewById(R.id.etPassword);
-        Info = (TextView)findViewById(R.id.tvInfo);
-        Login = (Button)findViewById(R.id.btnLogin);
-        userRegistration = (TextView)findViewById(R.id.tvRegister);
-        forgotPassword = (TextView)findViewById(R.id.tvForgotPassword);
+        Name =findViewById(R.id.etName);
+        Password =findViewById(R.id.etPassword);
+        Info =findViewById(R.id.tvInfo);
+        Login =findViewById(R.id.btnLogin);
+        TextView userRegistration=findViewById(R.id.tvRegister);
+        TextView forgotPassword=findViewById(R.id.tvForgotPassword);
 
         Info.setText("No of attempts remaining: " + counter);
 
@@ -166,6 +167,7 @@ public class MainActivity extends AppCompatActivity {
         progressDialog.show();
 
         firebaseAuth.signInWithEmailAndPassword(userName, userPassword).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+            @SuppressLint("SetTextI18n")
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()) {
@@ -185,8 +187,9 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     private void checkEmailVerification(){
-        FirebaseUser firebaseUser=firebaseAuth.getInstance().getCurrentUser();
-        Boolean emailflag = firebaseUser.isEmailVerified();
+        FirebaseUser firebaseUser=FirebaseAuth.getInstance().getCurrentUser();
+        assert firebaseUser != null;
+        boolean emailflag = firebaseUser.isEmailVerified();
 
         if (emailflag) {
             finish();

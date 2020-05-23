@@ -40,7 +40,8 @@ public class RegistrationActivity extends AppCompatActivity {
                     String user_email=userEmail.getText().toString().trim();
                     String user_password=userPassword.getText().toString().trim();
 
-                    Task<AuthResult> authResultTask=firebaseAuth.createUserWithEmailAndPassword(user_email, user_password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                    Task<AuthResult> authResultTask;
+                    authResultTask=firebaseAuth.createUserWithEmailAndPassword(user_email, user_password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
 
@@ -64,15 +65,15 @@ public class RegistrationActivity extends AppCompatActivity {
         });
     }
     private void setupUIViews () {
-        userName=(EditText) findViewById(R.id.etUserName);
-        userPassword=(EditText) findViewById(R.id.etUserPassword);
-        userEmail=(EditText) findViewById(R.id.etUserEmail);
-        regButton=(Button) findViewById(R.id.btnRegister);
-        userLogin=(TextView) findViewById(R.id.tvUserLogin);
+        userName=findViewById(R.id.etUserName);
+        userPassword=findViewById(R.id.etUserPassword);
+        userEmail=findViewById(R.id.etUserEmail);
+        regButton=findViewById(R.id.btnRegister);
+        userLogin=findViewById(R.id.tvUserLogin);
     }
 
     protected Boolean validate() {
-        Boolean result = false;
+        boolean result = false;
 
         String name=userName.getText().toString();
         String password=userPassword.getText().toString();

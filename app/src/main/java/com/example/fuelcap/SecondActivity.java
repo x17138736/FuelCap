@@ -1,40 +1,39 @@
 package com.example.fuelcap;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.auth.FirebaseAuth;
 
+import static com.example.fuelcap.R.id.btnContactUs;
+import static com.example.fuelcap.R.id.btnEVChargePoints;
+import static com.example.fuelcap.R.id.btnMaps;
+import static com.example.fuelcap.R.id.btnReview;
+
 public class SecondActivity extends AppCompatActivity {
 
-    private Button Maps;
-    private Button EVChargePoints;
-    private Button Review;
-    private Button ContactUs;
     private FirebaseAuth firebaseAuth;
-    private Button logout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-        Maps=(Button) findViewById(R.id.btnMaps);
-        EVChargePoints=(Button) findViewById(R.id.btnEVChargePoints);
-        Review=(Button) findViewById(R.id.btnReview);
-        ContactUs=(Button) findViewById(R.id.btnContactUs);
-        logout=(Button) findViewById(R.id.btnLogout);
+        Button maps=findViewById(btnMaps);
+        Button EVChargePoints=findViewById(btnEVChargePoints);
+        Button review=findViewById(btnReview);
+        Button contactUs=findViewById(btnContactUs);
+        Button logout=findViewById(R.id.btnLogout);
 
 
-        Maps.setOnClickListener(new View.OnClickListener() {
+        maps.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openMaps();
@@ -46,13 +45,13 @@ public class SecondActivity extends AppCompatActivity {
                 openEVChargePoints();
             }
         });
-        Review.setOnClickListener(new View.OnClickListener() {
+        review.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openReview();
             }
         });
-        ContactUs.setOnClickListener(new View.OnClickListener() {
+        contactUs.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openContactUs();
@@ -105,11 +104,11 @@ public class SecondActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.logoutMenu:{
-                Logout();
-            }
+        if (item.getItemId() != R.id.logoutMenu) {
+            return super.onOptionsItemSelected(item);
+        } else {
+            Logout();
+            return super.onOptionsItemSelected(item);
         }
-        return super.onOptionsItemSelected(item);
     }
 }
