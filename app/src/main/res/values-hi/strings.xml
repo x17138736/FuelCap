@@ -30,6 +30,11 @@
 
 
     <!-- Notifications -->
-    <string name="logFail">Login Failed</string>
-    <string name="verEmail">Please verify your email</string>
+    <string name="logFail">लॉगिन विफल</string>
+    <string name="verEmail">कृपया अपना ईमेल सत्यापित करें</string>
+
+    <!-- Registration Page -->
+    <string name="name">नाम</string>
+    <string name="register">रजिस्टर करें</string>
+    <string name="already_signed_in">पहले से साइन इन है</string>
 </resources>

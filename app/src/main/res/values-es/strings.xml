@@ -27,8 +27,13 @@
 
 
     <!-- Notifications -->
-    <string name="logFail">Login Failed</string>
-    <string name="verEmail">Please verify your email</string>
+    <string name="logFail">Error de inicio de sesion</string>
+    <string name="verEmail">Por favor verifique su correo electrónico</string>
+
+    <!-- Registration Page -->
+    <string name="name">Nombre</string>
+    <string name="register">Registrarse</string>
+    <string name="already_signed_in">Ya inicié sesión</string>
 
 
 </resources>

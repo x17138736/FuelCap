@@ -27,7 +27,12 @@
     <string name="sCool">Rămâneți la rece până când sunteți confirmat!</string>
 
     <!-- Notifications -->
-    <string name="logFail">Login Failed</string>
-    <string name="verEmail">Please verify your email</string>
+    <string name="logFail">Autentificare esuata</string>
+    <string name="verEmail">Verificați adresa dvs. de e-mail</string>
+
+    <!-- Registration Page -->
+    <string name="name">Nume</string>
+    <string name="register">Inregistreaza-te</string>
+    <string name="already_signed_in">Ați fost deja conectat</string>
 
 </resources>

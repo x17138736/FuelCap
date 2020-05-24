@@ -9,6 +9,8 @@
     <string name="sUp">SignUp</string>
     <string name="forPword">Forgot Password</string>
     <string name="changeLang">Change Language</string>
+
+    <!-- Menu Button and Home Page-->
     <string name="logout">Logout</string>
     <string name="review_page">Review Page</string>
     <string name="contact_us">Contact Us</string>
@@ -16,4 +18,16 @@
     <string name="maps">Maps</string>
     <string name="ev_charge_points">EV_Charge_Points</string>
     <string name="review">Review</string>
+
+    <!-- Verify ID message -->
+    <string name="sCool">Stay cool, while you are verified!</string>
+
+    <!-- Notifications -->
+    <string name="logFail">Login Failed</string>
+    <string name="verEmail">Please verify your email</string>
+
+   <!-- Registration Page -->
+    <string name="name">Name</string>
+    <string name="register">Register</string>
+    <string name="already_signed_in">Already Signed In</string>
 </resources>
