@@ -10,6 +10,24 @@
     <string name="sUp">Inscrie-te</string>
     <string name="forPword">Ați uitat parola</string>
     <string name="changeLang">Schimbă limba</string>
-    <string name="stayCoo">Rămâneți la rece până când sunteți confirmat!</string>
-    <string name="logFail">Autentificare esuata</string>
+    <!--<string name="stayCoo">Rămâneți la rece până când sunteți confirmat!</string>
+   <string name="logFail">Autentificare esuata</string> -->
+
+
+   <!-- Menu Button -->
+    <string name="logout">Deconectare</string>
+    <string name="review_page">Pagina de revizuire</string>
+    <string name="contact_us">Contactează-ne</string>
+    <string name="languages">Limbile</string>
+    <string name="maps">Hărți</string>
+    <string name="ev_charge_points">Puncte de încărcare EV</string>
+    <string name="review">Revizuire</string>
+
+    <!-- Verify ID message -->
+    <string name="sCool">Rămâneți la rece până când sunteți confirmat!</string>
+
+    <!-- Notifications -->
+    <string name="logFail">Login Failed</string>
+    <string name="verEmail">Please verify your email</string>
+
 </resources>

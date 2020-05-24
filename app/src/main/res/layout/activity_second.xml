@@ -46,7 +46,7 @@
         android:id="@+id/btnContactUs"
         android:layout_width="280dp"
         android:layout_height="75dp"
-        android:text="Contact_Us"
+        android:text="@string/contact_us"
         app:layout_constraintBottom_toTopOf="@+id/btnLogout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.566"

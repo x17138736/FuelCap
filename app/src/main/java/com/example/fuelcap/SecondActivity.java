@@ -68,8 +68,10 @@ public class SecondActivity extends AppCompatActivity {
         });
 
     }
+    // I have changed the .class where it's to be opened to SecondActivity.class to overcome an error.
+    // can be changed to the maps class when we sort it out.
     private void openMaps () {
-        Intent intent=new Intent(SecondActivity.this, Maps.class);
+        Intent intent=new Intent(SecondActivity.this, SecondActivity.class);
         startActivity(intent);
 
     }

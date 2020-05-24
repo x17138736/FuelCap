@@ -16,8 +16,4 @@
     <string name="maps">Maps</string>
     <string name="ev_charge_points">EV_Charge_Points</string>
     <string name="review">Review</string>
-    <string name="already_signed_in">Already Signed In</string>
-    <string name="register">Register</string>
-    <string name="password">Password</string>
-    <string name="name">Name</string>
 </resources>

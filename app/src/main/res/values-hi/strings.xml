@@ -10,6 +10,26 @@
     <string name="sUp">साइन अप करें</string>
     <string name="forPword">पासवर्ड भूल गए</string>
     <string name="changeLang">भाषा बदलो</string>
+
+    <!--
     <string name="stayCoo">जब तक आप सत्यापित नहीं हो जाते तब तक शांत रहें!</string>
-    <string name="logFail">लॉगिन विफल</string>
+    <string name="logFail">लॉगिन विफल</string> -->
+
+
+    <!-- Menu Button -->
+    <string name="logout">लॉग आउट</string>
+    <string name="review_page">समीक्षा पृष्ठ</string>
+    <string name="contact_us">संपर्क करें</string>
+    <string name="languages">बोली</string>
+    <string name="maps">मैप्स</string>
+    <string name="ev_charge_points">ईवी चार्ज अंक</string>
+    <string name="review">समीक्षा</string>
+
+    <!-- Verify ID message -->
+    <string name="sCool">जब तक आप सत्यापित नहीं हो जाते तब तक शांत रहें!</string>
+
+
+    <!-- Notifications -->
+    <string name="logFail">Login Failed</string>
+    <string name="verEmail">Please verify your email</string>
 </resources>

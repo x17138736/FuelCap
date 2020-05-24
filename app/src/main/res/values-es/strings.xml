@@ -10,8 +10,25 @@
     <string name="sUp">Regístrate</string>
     <string name="forPword">Se te olvidó tu contraseña</string>
     <string name="changeLang">Cambiar idioma</string>
-    <string name="stayCoo">¡Manténgase fresco hasta que sea verificado!</string>
-    <string name="logFail">error de inicio de sesion</string>
+
+
+
+    <!-- Menu Button -->
+    <string name="logout">Cerrar sesión</string>
+    <string name="review_page">Revisar página</string>
+    <string name="contact_us">Contáctenos</string>
+    <string name="languages">Idiomas</string>
+    <string name="maps">Mapas</string>
+    <string name="ev_charge_points">Puntos de carga EV</string>
+    <string name="review">revisión</string>
+
+    <!-- Verify ID message -->
+    <string name="sCool">¡Manténgase fresco hasta que sea verificado!</string>
+
+
+    <!-- Notifications -->
+    <string name="logFail">Login Failed</string>
+    <string name="verEmail">Please verify your email</string>
 
 
 </resources>
