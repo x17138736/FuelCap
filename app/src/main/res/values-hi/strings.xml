@@ -16,7 +16,7 @@
     <string name="logFail">लॉगिन विफल</string> -->
 
 
-    <!-- Menu Button -->
+    <!-- Menu Button and Home Page / Secondary Activity -->
     <string name="logout">लॉग आउट</string>
     <string name="review_page">समीक्षा पृष्ठ</string>
     <string name="contact_us">संपर्क करें</string>
