@@ -25,7 +25,7 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 import static android.Manifest.permission.*;
-
+// comment
 @SuppressWarnings("deprecation")
 public class MapsActivity extends FragmentActivity implements
         OnMapReadyCallback,
