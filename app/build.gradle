@@ -11,7 +11,7 @@ android {
     buildToolsVersion "29.0.1"
     defaultConfig {
         applicationId "com.example.fuelcap"
-        minSdkVersion 16
+        minSdkVersion 19
         targetSdkVersion 29
         multiDexEnabled true
         versionCode 1
@@ -40,6 +40,7 @@ dependencies {
 
 dependencies {
     implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
     implementation 'androidx.appcompat:appcompat:1.1.0'
 }
 
