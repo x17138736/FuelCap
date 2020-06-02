@@ -99,43 +99,43 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showChangeLanguageDialog() {
-        // Languages that are available to use
-        final String[] listItems = {"Deutsche", "Español", "Română", "हिन्दी", "English"};
-        AlertDialog.Builder mBuilder = new AlertDialog.Builder(MainActivity.this);
-        mBuilder.setTitle("Choose Your Language..");
-        mBuilder.setSingleChoiceItems(listItems, -1, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
-                if (i==0){
-                    // Choose German
-                    setLocale("de");
-                    recreate();
-                }
-                else if (i==1){
-                    // Choose Spanish
-                    setLocale("es");
-                    recreate();
-                }
-                else if (i==2){
-                    // Choose Romanian
-                    setLocale("ro");
-                    recreate();
-                }
-                else if (i==3){
-                    // Choose Hindi
-                    setLocale("hi");
-                    recreate();
-                }
-                else if (i==4){
-                    // Choose English
-                    setLocale("en");
-                    recreate();
-                }
+            // Languages that are available to use
+            final String[] listItems = {"Deutsche", "Español", "Română", "हिन्दी", "English"};
+            AlertDialog.Builder mBuilder = new AlertDialog.Builder(MainActivity.this);
+            mBuilder.setTitle("Choose Your Language..");
+            mBuilder.setSingleChoiceItems(listItems, -1, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    if (i==0){
+                        // Choose German
+                        setLocale("de");
+                        recreate();
+                    }
+                    else if (i==1){
+                        // Choose Spanish
+                        setLocale("es");
+                        recreate();
+                    }
+                    else if (i==2){
+                        // Choose Romanian
+                        setLocale("ro");
+                        recreate();
+                    }
+                    else if (i==3){
+                        // Choose Hindi
+                        setLocale("hi");
+                        recreate();
+                    }
+                    else if (i==4){
+                        // Choose English
+                        setLocale("en");
+                        recreate();
+                    }
 
-                //get rid of the dialog box after the language has been selected.
-                dialogInterface.dismiss();
-            }
-        });
+                    //get rid of the dialog box after the language has been selected.
+                    dialogInterface.dismiss();
+                }
+            });
 
         AlertDialog mDialog = mBuilder.create();
         // let the alert dialog box be shown.
