@@ -127,12 +127,14 @@ public class SecondActivity extends AppCompatActivity {
         else if (item.getItemId() == R.id.changeLang){
                 //Show the alert box to bring up the display of languages that can be selected.
                 showChangeLanguageDialog();
-
+            //This is the same code from the Main activity that has been modified for the button here.
+            //The onClickListener doesn't apply here so I had to change that.
         }
 
         return super.onOptionsItemSelected(item);
     }
 
+    //This is the same code from the Main activity that has been modified for the button here.
     private void showChangeLanguageDialog() {
         // Languages that are available to use
         final String[] listItems = {"Deutsche", "Español", "Română", "हिन्दी", "English"};
@@ -177,6 +179,7 @@ public class SecondActivity extends AppCompatActivity {
         mDialog.show();
     }
 
+    //This is the same code from the Main activity that has been modified for the button here.
     private void setLocale(String lang) {
         Locale locale = new Locale(lang);
         Locale.setDefault(locale);
@@ -189,6 +192,7 @@ public class SecondActivity extends AppCompatActivity {
         editor.apply();
     }
 
+    //This is the same code from the Main activity that has been modified for the button here.
     // Load Language that's saved in shared preferences.
     public void loadLocale(){
         SharedPreferences prefs = getSharedPreferences("Settings", Activity.MODE_PRIVATE);
