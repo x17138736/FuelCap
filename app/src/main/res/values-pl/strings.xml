@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Korek wlewu paliwa</string>
+
+    <!-- Main Activity Language ID's -->
+    <string name="email">E-mail</string>
+    <string name="pword">Hasło</string>
+    <string name="login">Zaloguj sie</string>
+    <string name="incorrect">Liczba niepoprawnych prób:</string>
+    <string name="sUp">Zapisz się</string>
+    <string name="forPword">Zapomniałeś hasła</string>
+    <string name="changeLang">Zmień język</string>
+
+    <!-- Menu Button and Home Page / Secondary Activity -->
+    <string name="logout">Wyloguj</string>
+    <string name="review_page">Strona przeglądu</string>
+    <string name="contact_us">Skontaktuj się z nami</string>
+    <string name="languages">Języki</string>
+    <string name="maps">Mapy</string>
+    <string name="ev_charge_points">Punkty ładowania EV</string>
+    <string name="review">Przejrzeć</string>
+
+    <!-- Verify ID message -->
+    <string name="sCool">Zachowaj spokój, dopóki jesteś zweryfikowany!</string>
+
+    <!-- Notifications -->
+    <string name="logFail">Logowanie nie powiodło się</string>
+    <string name="verEmail">Proszę zweryfikować swój adres e-mail</string>
+
+    <!-- Registration Page -->
+    <string name="name">Imię</string>
+    <string name="register">Zarejestrować</string>
+    <string name="already_signed_in">Już zalogowany</string>
+
+    <!--  Change language dialog title -->
+    <string name="setTitle">Wybierz swój język..</string>
+</resources>

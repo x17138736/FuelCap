@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bouchon du réservoir d\'essence</string>
+
+    <!-- Main Activity Language ID's -->
+    <string name="email">Email</string>
+    <string name="pword">Mot de passe</string>
+    <string name="login">S\'identifier</string>
+    <string name="incorrect">Nombre de tentatives incorrectes:</string>
+    <string name="sUp">S\'inscrire</string>
+    <string name="forPword">Mot de passe oublié</string>
+    <string name="changeLang">Changer de langue</string>
+
+    <!-- Menu Button and Home Page / Secondary Activity -->
+    <string name="logout">Se déconnecter</string>
+    <string name="review_page">Page de révision</string>
+    <string name="contact_us">Nous contacter</string>
+    <string name="languages">Les langues</string>
+    <string name="maps">Plans</string>
+    <string name="ev_charge_points">Points de charge EV</string>
+    <string name="review">La revue</string>
+
+    <!-- Verify ID message -->
+    <string name="sCool">Restez cool, pendant que vous êtes vérifié!</string>
+
+    <!-- Notifications -->
+    <string name="logFail">Échec de la connexion</string>
+    <string name="verEmail">Veuillez vérifier votre email</string>
+
+    <!-- Registration Page -->
+    <string name="name">Nom</string>
+    <string name="register">S\'inscrire</string>
+    <string name="already_signed_in">Déjà connecté</string>
+
+    <!--  Change language dialog title -->
+    <string name="setTitle">Choisissez votre langue..</string>
+</resources>

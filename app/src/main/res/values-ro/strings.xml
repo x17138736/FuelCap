@@ -35,4 +35,7 @@
     <string name="register">Inregistreaza-te</string>
     <string name="already_signed_in">Ați fost deja conectat</string>
 
+    <!--  Change language dialog title -->
+    <string name="setTitle">Alegeți-vă limba ..</string>
+
 </resources>

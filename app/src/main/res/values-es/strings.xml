@@ -35,5 +35,8 @@
     <string name="register">Registrarse</string>
     <string name="already_signed_in">Ya inicié sesión</string>
 
+    <!--  Change language dialog title -->
+    <string name="setTitle">Elige tu idioma..</string>
+
 
 </resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tampão de combustível</string>
+
+    <!-- Main Activity Language ID's -->
+    <string name="email">Tampão de combustível</string>
+    <string name="pword">Senha</string>
+    <string name="login">Conecte-se</string>
+    <string name="incorrect">Nº de tentativas incorretas:</string>
+    <string name="sUp">Inscrever-se</string>
+    <string name="forPword">Esqueceu a senha</string>
+    <string name="changeLang">Mudar idioma</string>
+
+    <!-- Menu Button and Home Page / Secondary Activity -->
+    <string name="logout">Sair</string>
+    <string name="review_page">Página de Revisão</string>
+    <string name="contact_us">Contate-Nos</string>
+    <string name="languages">línguas</string>
+    <string name="maps">Mapas</string>
+    <string name="ev_charge_points">Pontos de Carga EV</string>
+    <string name="review">Reveja</string>
+
+    <!-- Verify ID message -->
+    <string name="sCool">Mantenha a calma, enquanto você é verificado!</string>
+
+    <!-- Notifications -->
+    <string name="logFail">Falha na autenticação</string>
+    <string name="verEmail">Verifique seu email</string>
+
+    <!-- Registration Page -->
+    <string name="name">Nome</string>
+    <string name="register">Registro</string>
+    <string name="already_signed_in">Já fez login</string>
+
+    <!--  Change language dialog title -->
+    <string name="setTitle">Escolha o seu idioma.</string>
+</resources>

@@ -30,4 +30,7 @@
     <string name="name">Name</string>
     <string name="register">Register</string>
     <string name="already_signed_in">Already Signed In</string>
+
+    <!--  Change language dialog title -->
+    <string name="setTitle">Choose Your Language..</string>
 </resources>

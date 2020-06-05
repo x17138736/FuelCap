@@ -37,4 +37,7 @@
     <string name="name">नाम</string>
     <string name="register">रजिस्टर करें</string>
     <string name="already_signed_in">पहले से साइन इन है</string>
+
+    <!--  Change language dialog title -->
+    <string name="setTitle">अपनी भाषा चुनिए..</string>
 </resources>

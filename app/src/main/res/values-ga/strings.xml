@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cap Breosla</string>
+
+    <!-- Main Activity Language ID's -->
+    <string name="email">Ríomhphost</string>
+    <string name="pword">Pasfhocal</string>
+    <string name="login">Logáil isteach</string>
+    <string name="incorrect">Líon na n-iarrachtaí míchearta:</string>
+    <string name="sUp">Clarú</string>
+    <string name="forPword">Dearmad ar pasfhocal</string>
+    <string name="changeLang">Athraigh Teanga</string>
+
+    <!-- Menu Button and Home Page / Secondary Activity -->
+    <string name="logout">Logáil Amach</string>
+    <string name="review_page">Leathanach Athbhreithnithe</string>
+    <string name="contact_us">Glaoigh orainn</string>
+    <string name="languages">Teangacha</string>
+    <string name="maps">Léarscáileanna</string>
+    <string name="ev_charge_points">Pointí Muirir EV</string>
+    <string name="review">Athbhreithniú</string>
+
+    <!-- Verify ID message -->
+    <string name="sCool">Fan fionnuar, agus tú fíoraithe!</string>
+
+    <!-- Notifications -->
+    <string name="logFail">Theip ar Logáil Isteach</string>
+    <string name="verEmail">Fíoraigh do r-phost le do thoil</string>
+
+    <!-- Registration Page -->
+    <string name="name">Ainm</string>
+    <string name="register">Cláraigh</string>
+    <string name="already_signed_in">Sínithe cheana féin</string>
+
+    <!--  Change language dialog title -->
+    <string name="setTitle">Roghnaigh Do Theanga ..</string>
+</resources>
