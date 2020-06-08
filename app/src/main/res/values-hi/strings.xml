@@ -2,6 +2,9 @@
 <resources>
     <string name="app_name">ईंधन टोपी</string>
 
+    <!-- ActionBar -->
+    <string name="abName">ईंधन टोपी</string>
+
     <!-- Main Activity Language ID's -->
     <string name="email">ईमेल</string>
     <string name="pword">कुंजिका</string>
@@ -40,4 +43,8 @@
 
     <!--  Change language dialog title -->
     <string name="setTitle">अपनी भाषा चुनिए..</string>
+
+    <!-- Review class and .xml -->
+    <string name="fBack">आपकी प्रतिक्रिया के लिए आपका धन्यवाद</string>
+    <string name="revSub">प्रस्तुत</string>
 </resources>

@@ -2,6 +2,9 @@
 <resources>
     <string name="app_name">Cap Breosla</string>
 
+    <!-- ActionBar -->
+    <string name="abName">Cap Breosla</string>
+
     <!-- Main Activity Language ID's -->
     <string name="email">Ríomhphost</string>
     <string name="pword">Pasfhocal</string>
@@ -34,4 +37,8 @@
 
     <!--  Change language dialog title -->
     <string name="setTitle">Roghnaigh Do Theanga ..</string>
+
+    <!-- Review class and .xml -->
+    <string name="fBack">Go raibh maith agat as d\'aiseolas</string>
+    <string name="revSub">Cuir isteach</string>
 </resources>

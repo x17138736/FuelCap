@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">油箱盖</string>
+
+    <!-- ActionBar -->
+    <string name="abName">油箱盖</string>
+
+    <!-- Main Activity Language ID's -->
+    <string name="email">电子邮件</string>
+    <string name="pword">密码</string>
+    <string name="login">登录</string>
+    <string name="incorrect">错误尝试次数：</string>
+    <string name="sUp">注册</string>
+    <string name="forPword">忘记密码</string>
+    <string name="changeLang">改变语言</string>
+
+    <!-- Menu Button and Home Page / Secondary Activity -->
+    <string name="logout">登出</string>
+    <string name="review_page">评论页</string>
+    <string name="contact_us">联系我们</string>
+    <string name="languages">语言能力</string>
+    <string name="maps">地图</string>
+    <string name="ev_charge_points">电动汽车充电点</string>
+    <string name="review">评论</string>
+
+    <!-- Verify ID message -->
+    <string name="sCool">待您验证时保持冷静！</string>
+
+    <!-- Notifications -->
+    <string name="logFail">登录失败</string>
+    <string name="verEmail">请验证您的电子邮件</string>
+
+    <!-- Registration Page -->
+    <string name="name">名称</string>
+    <string name="register">寄存器</string>
+    <string name="already_signed_in">已经登录</string>
+
+    <!--  Change language dialog title -->
+    <string name="setTitle">选择你的语言..</string>
+
+    <!-- Review class and .xml -->
+    <string name="fBack">感谢您的反馈意见</string>
+    <string name="revSub">提交</string>
+</resources>

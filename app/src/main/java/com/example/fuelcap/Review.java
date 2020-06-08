@@ -11,7 +11,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 public class Review extends AppCompatActivity {
-        String feedback="Thank you for your feedback";
+        String feedback=getString(R.string.fBack);
         Button subBtn1;
         RatingBar andRatingBar;
 

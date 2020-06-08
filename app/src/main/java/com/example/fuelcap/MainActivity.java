@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         //change the action bar title.
         ActionBar actionBar = getSupportActionBar();
         assert actionBar != null;
-        actionBar.setTitle(getResources().getString(R.string.app_name));
+        actionBar.setTitle(getResources().getString(R.string.abName));
         
         Button changeLang = findViewById(R.id.chang_Lang);
         changeLang.setOnClickListener(new View.OnClickListener(){
@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void showChangeLanguageDialog() {
             // Languages that are available to use
-            final String[] listItems = {"Deutsche", "Español", "Română", "हिन्दी", "Polskie", "Gaeilge", "Português", "Français", "English"};
+            final String[] listItems = {"Deutsche", "Español", "Română", "हिन्दी", "Polskie", "Gaeilge", "Português", "Français", "中文", "English"};
             AlertDialog.Builder mBuilder = new AlertDialog.Builder(MainActivity.this);
             mBuilder.setTitle(R.string.setTitle);
             mBuilder.setSingleChoiceItems(listItems, -1, new DialogInterface.OnClickListener() {
@@ -147,6 +147,11 @@ public class MainActivity extends AppCompatActivity {
                         recreate();
                     }
                     else if (i==8){
+                        // Choose Chinese
+                        setLocale("zh");
+                        recreate();
+                    }
+                    else if (i==9){
                         // Choose English
                         setLocale("en");
                         recreate();

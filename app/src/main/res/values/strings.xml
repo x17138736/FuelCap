@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Fuel Cap</string>
 
+
+    <!-- ActionBar -->
+    <string name="abName">Fuel Cap</string>
+
     <!-- Main Activity Language ID's -->
     <string name="email">Email</string>
     <string name="pword">Password</string>
@@ -33,4 +37,8 @@
 
     <!--  Change language dialog title -->
     <string name="setTitle">Choose Your Language..</string>
+
+    <!-- Review class and .xml -->
+    <string name="fBack">Thank you for your feedback</string>
+    <string name="revSub">Submit</string>
 </resources>

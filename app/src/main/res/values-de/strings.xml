@@ -2,6 +2,8 @@
 <resources>
     <string name="app_name">Tankdeckel</string>
 
+    <!-- ActionBar -->
+    <string name="abName">Tankdeckel</string>
 
     <!-- Main Activity Language ID's -->
     <string name="email">Email</string>
@@ -37,5 +39,9 @@
 
     <!--  Change language dialog title -->
     <string name="setTitle">Wähle deine Sprache..</string>
+
+    <!-- Review class and .xml -->
+    <string name="fBack">Vielen Dank für dein Feedback</string>
+    <string name="revSub">einreichen</string>
 
 </resources>

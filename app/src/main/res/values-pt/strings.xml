@@ -2,6 +2,9 @@
 <resources>
     <string name="app_name">Tampão de combustível</string>
 
+    <!-- ActionBar -->
+    <string name="abName">Tampão de combustível</string>
+
     <!-- Main Activity Language ID's -->
     <string name="email">Tampão de combustível</string>
     <string name="pword">Senha</string>
@@ -34,4 +37,8 @@
 
     <!--  Change language dialog title -->
     <string name="setTitle">Escolha o seu idioma.</string>
+
+    <!-- Review class and .xml -->
+    <string name="fBack">Obrigado pelo seu feedback</string>
+    <string name="revSub">Enviar</string>
 </resources>

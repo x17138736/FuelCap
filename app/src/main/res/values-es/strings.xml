@@ -2,6 +2,9 @@
 <resources>
     <string name="app_name">Tapa de combustible</string>
 
+    <!-- ActionBar -->
+    <string name="abName">Tapa de combustible</string>
+
     <!-- Main Activity Language ID's -->
     <string name="email">Correo electrónico</string>
     <string name="pword">Contraseña</string>
@@ -37,6 +40,10 @@
 
     <!--  Change language dialog title -->
     <string name="setTitle">Elige tu idioma..</string>
+
+    <!-- Review class and .xml -->
+    <string name="fBack">Gracias por tus comentarios</string>
+    <string name="revSub">Enviar</string>
 
 
 </resources>

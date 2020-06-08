@@ -138,7 +138,7 @@ public class SecondActivity extends AppCompatActivity {
     //This is the same code from the Main activity that has been modified for the button here.
     private void showChangeLanguageDialog() {
         // Languages that are available to use
-        final String[] listItems = {"Deutsche", "Español", "Română", "हिन्दी", "Polskie", "Gaeilge", "Português", "Français", "English"};
+        final String[] listItems = {"Deutsche", "Español", "Română", "हिन्दी", "Polskie", "Gaeilge", "Português", "Français", "中文", "English"};
         AlertDialog.Builder mBuilder = new AlertDialog.Builder(SecondActivity.this);
         mBuilder.setTitle(R.string.setTitle);
         mBuilder.setSingleChoiceItems(listItems, -1, new DialogInterface.OnClickListener() {
@@ -185,6 +185,11 @@ public class SecondActivity extends AppCompatActivity {
                     recreate();
                 }
                 else if (i==8){
+                    // Choose Chinese
+                    setLocale("zh");
+                    recreate();
+                }
+                else if (i==9){
                     // Choose English
                     setLocale("en");
                     recreate();

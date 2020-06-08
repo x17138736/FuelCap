@@ -2,6 +2,9 @@
 <resources>
     <string name="app_name">Capac de combustibil</string>
 
+    <!-- ActionBar -->
+    <string name="abName">Capac de combustibil</string>
+
     <!-- Main Activity Language ID's -->
     <string name="email">E-mail</string>
     <string name="pword">Parola</string>
@@ -37,5 +40,9 @@
 
     <!--  Change language dialog title -->
     <string name="setTitle">Alegeți-vă limba ..</string>
+
+    <!-- Review class and .xml -->
+    <string name="fBack">multumim pentru feedback-ul dvs</string>
+    <string name="revSub">Trimite</string>
 
 </resources>

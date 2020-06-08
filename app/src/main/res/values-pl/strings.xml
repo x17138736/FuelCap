@@ -2,6 +2,9 @@
 <resources>
     <string name="app_name">Korek wlewu paliwa</string>
 
+    <!-- ActionBar -->
+    <string name="abName">Korek wlewu paliwa</string>
+
     <!-- Main Activity Language ID's -->
     <string name="email">E-mail</string>
     <string name="pword">Hasło</string>
@@ -34,4 +37,8 @@
 
     <!--  Change language dialog title -->
     <string name="setTitle">Wybierz swój język..</string>
+
+    <!-- Review class and .xml -->
+    <string name="fBack">Dziękujemy za twoją opinię</string>
+    <string name="revSub">Zatwierdź</string>
 </resources>

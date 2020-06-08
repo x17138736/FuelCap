@@ -2,6 +2,9 @@
 <resources>
     <string name="app_name">Bouchon du réservoir d\'essence</string>
 
+    <!-- ActionBar -->
+    <string name="abName">Bouchon du réservoir d\'essence</string>
+
     <!-- Main Activity Language ID's -->
     <string name="email">Email</string>
     <string name="pword">Mot de passe</string>
@@ -34,4 +37,8 @@
 
     <!--  Change language dialog title -->
     <string name="setTitle">Choisissez votre langue..</string>
+
+    <!-- Review class and .xml -->
+    <string name="fBack">Merci pour votre avis</string>
+    <string name="revSub">Soumettre</string>
 </resources>
