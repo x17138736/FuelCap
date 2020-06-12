@@ -1,13 +1,13 @@
 package com.example.fuelcap;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
+import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.os.Bundle;
 import android.widget.RatingBar;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 
 public class ReviewActivity extends AppCompatActivity {
@@ -19,7 +19,6 @@ public class ReviewActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_review);
-        Toast.makeText(getApplicationContext(), "in review", Toast.LENGTH_LONG).show();
 
         final RatingBar androidRatingBar = (RatingBar)findViewById(R.id.andRatingBar);
         Button submitBtn = (Button)findViewById(R.id.subBtn1);

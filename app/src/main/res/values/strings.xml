@@ -30,7 +30,7 @@
     <string name="logFail">Login Failed</string>
     <string name="verEmail">Please verify your email</string>
 
-   <!-- Registration Page -->
+    <!-- Registration Page -->
     <string name="name">Name</string>
     <string name="register">Register</string>
     <string name="already_signed_in">Already Signed In</string>
