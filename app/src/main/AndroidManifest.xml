@@ -16,7 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".ContactUs" />
-        <activity android:name=".Review" />
+        <activity android:name=".ReviewActivity"/>
         <activity android:name=".EVChargePoints" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.

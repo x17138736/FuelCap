@@ -90,7 +90,7 @@ public class SecondActivity extends AppCompatActivity {
     }
 
     private void openReview () {
-        Intent intent=new Intent(SecondActivity.this, Review.class);
+        Intent intent=new Intent(SecondActivity.this, ReviewActivity.class);
         startActivity(intent);
 
     }
@@ -118,7 +118,7 @@ public class SecondActivity extends AppCompatActivity {
             return super.onOptionsItemSelected(item);
         }
         else if (item.getItemId() == R.id.reviewpageMenu){
-                Intent intent=new Intent(SecondActivity.this, Review.class);
+                Intent intent=new Intent(SecondActivity.this, ReviewActivity.class);
                 startActivity(intent);
         }
         else if (item.getItemId() == R.id.contactusMenu){
