@@ -38,7 +38,7 @@ public class ContactUs extends AppCompatActivity {
         }
         else{
             contt = false;
-            Toast.makeText(getApplicationContext(), "You don't have an internet connection",
+            Toast.makeText(getApplicationContext(), R.string.conIntNo,
                     Toast.LENGTH_LONG).show();
         }
         cBtn.setOnClickListener(
@@ -47,7 +47,7 @@ public class ContactUs extends AppCompatActivity {
                     public void onClick(View arg0) {
                         //make sure all the fields are filled first.
                         if (name.getText().toString().equals("") ||  mail2.getText().toString().equals("") || cMsg.getText().toString().equals("")) {
-                            Toast.makeText(ContactUs.this.getApplicationContext(), "Please go back and fill all fields",
+                            Toast.makeText(ContactUs.this.getApplicationContext(), R.string.conFill,
                                     Toast.LENGTH_LONG).show();
                         } else if (contt != true) {
                             Toast.makeText(ContactUs.this.getApplicationContext(), "Your internet connection is shit please check it",
@@ -64,10 +64,10 @@ public class ContactUs extends AppCompatActivity {
                                         ((EditText) findViewById(R.id.email2)).getText().toString() + "\n" +
                                         "User's Message / Query : " + ((EditText) findViewById(R.id.cUsMsg)).getText().toString();
                                 new SendMailTask(ContactUs.this).execute(sEmail, password, emailList, emailSub, mailBody, conEmail); // Now that we have all the necessary data we can proceed with send it.
-                                startActivity(new Intent(getApplicationContext(),SecondActivity.class));
+                                startActivity(new Intent(getApplicationContext(),AfterCon.class));
                             }
                             else {
-                                Toast.makeText(getApplicationContext(), "Email needs to be filled out and contain an @ symbol. Thank You",
+                                Toast.makeText(getApplicationContext(), R.string.conNoEmail,
                                         Toast.LENGTH_LONG).show();
                             }
                         }

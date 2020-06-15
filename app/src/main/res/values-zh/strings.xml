@@ -41,4 +41,18 @@
     <!-- Review class and .xml -->
     <string name="fBack">感谢您的反馈意见</string>
     <string name="revSub">提交</string>
+
+    <!-- Contact us page and related -->
+    <string name="fConUsPa">FuelCap联系我们页面！</string>
+    <string name="conEmail">请确认电子邮件</string>
+    <string name="conMsg">在此处输入您的消息或查询</string>
+    <string name="snd">发送</string>
+    <string name="conFill">请返回并填写所有字段</string>
+    <string name="conIntNo">您没有互联网连接</string>
+    <string name="conNoEmail">电子邮件需要填写并包含@符号。 谢谢</string>
+
+    <!-- Page that is brought up after the contact message has been sent  -->
+    <string name="afConMsg">感谢您抽出宝贵时间与FuelCap联系。 非常感谢，我们的团队成员将尽快与您联系，以解决您的消息或疑问</string>
+    <string name="afConBtn1">主菜单</string>
+    <string name="afConBtn2">退出申请</string>
 </resources>

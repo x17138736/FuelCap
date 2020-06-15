@@ -41,4 +41,18 @@
     <!-- Review class and .xml -->
     <string name="fBack">Obrigado pelo seu feedback</string>
     <string name="revSub">Enviar</string>
+
+    <!-- Contact us page and related -->
+    <string name="fConUsPa">FuelCap Entre em contato conosco!</string>
+    <string name="conEmail">Confirme o email</string>
+    <string name="conMsg">Digite sua mensagem ou consulta aqui</string>
+    <string name="snd">Enviar</string>
+    <string name="conFill">Volte e preencha todos os campos</string>
+    <string name="conIntNo">Você não tem conexão com a Internet</string>
+    <string name="conNoEmail">O e-mail precisa ser preenchido e conter um símbolo @. Obrigado</string>
+
+    <!-- Page that is brought up after the contact message has been sent  -->
+    <string name="afConMsg">Obrigado por entrar em contato com a FuelCap. Agradecemos e um membro de nossa equipe entrará em contato em breve para enviar sua mensagem ou consulta</string>
+    <string name="afConBtn1">Menu principal</string>
+    <string name="afConBtn2">Sair da aplicação</string>
 </resources>

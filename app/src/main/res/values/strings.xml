@@ -41,4 +41,19 @@
     <!-- Review class and .xml -->
     <string name="fBack">Thank you for your feedback</string>
     <string name="revSub">Submit</string>
+
+    <!-- Contact us page and related -->
+    <string name="fConUsPa">FuelCap Contact us page!</string>
+    <string name="conEmail">Please Confirm Email</string>
+    <string name="conMsg">Type your message or query here</string>
+    <string name="snd">Send</string>
+    <string name="conFill">Please go back and fill all fields</string>
+    <string name="conIntNo">You don\'t have an internet connection</string>
+    <string name="conNoEmail">Email needs to be filled out and contain an @ symbol. Thank You</string>
+
+    <!-- Page that is brought up after the contact message has been sent  -->
+    <string name="afConMsg">Thank you for taking the time to contact FuelCap. We appreciate it and a member of our team will be in touch shortly to address your message or query</string>
+    <string name="afConBtn1">Main Menu</string>
+    <string name="afConBtn2">Exit Application</string>
+
 </resources>

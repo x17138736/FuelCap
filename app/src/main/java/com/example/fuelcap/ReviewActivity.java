@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 public class ReviewActivity extends AppCompatActivity {
-    String Feedback = "Thank you for your feedback";
+    String Feedback = getString(R.string.fBack);
     Button submitBtn;
     RatingBar androidRatingBar;
 

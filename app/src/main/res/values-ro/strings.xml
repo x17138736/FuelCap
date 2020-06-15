@@ -45,4 +45,18 @@
     <string name="fBack">multumim pentru feedback-ul dvs</string>
     <string name="revSub">Trimite</string>
 
+    <!-- Contact us page and related -->
+    <string name="fConUsPa">FuelCap Contactati-ne pagina!</string>
+    <string name="conEmail">Confirmați e-mailul</string>
+    <string name="conMsg">Introduceți mesajul sau interogarea aici</string>
+    <string name="snd">Trimite</string>
+    <string name="conFill">Vă rugăm să vă întoarceți și să completați toate câmpurile</string>
+    <string name="conIntNo">Nu aveți conexiune la internet</string>
+    <string name="conNoEmail">E-mailul trebuie completat și conține un simbol @. Mulțumesc</string>
+
+    <!-- Page that is brought up after the contact message has been sent  -->
+    <string name="afConMsg">Vă mulțumim pentru că ați luat timpul necesar pentru a contacta FuelCap. Îi apreciem și un membru al echipei noastre va fi în scurt timp pentru a vă adresa mesajul sau întrebarea</string>
+    <string name="afConBtn1">Meniu principal</string>
+    <string name="afConBtn2">Aplicația de ieșire</string>
+
 </resources>

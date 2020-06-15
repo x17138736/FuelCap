@@ -41,4 +41,18 @@
     <!-- Review class and .xml -->
     <string name="fBack">Go raibh maith agat as d\'aiseolas</string>
     <string name="revSub">Cuir isteach</string>
+
+    <!-- Contact us page and related -->
+    <string name="fConUsPa">FuelCap Déan teagmháil linn leathanach!</string>
+    <string name="conEmail">Deimhnigh Ríomhphost le do thoil</string>
+    <string name="conMsg">Clóscríobh do theachtaireacht nó do cheist anseo</string>
+    <string name="snd">Seol</string>
+    <string name="conFill">Téigh ar ais le do thoil agus líon na réimsí go léir</string>
+    <string name="conIntNo">Níl nasc idirlín agat</string>
+    <string name="conNoEmail">Is gá ríomhphost a líonadh agus siombail @ a bheith ann. Go raibh maith agat</string>
+
+    <!-- Page that is brought up after the contact message has been sent  -->
+    <string name="afConMsg">Go raibh maith agat as do chuid ama a thógáil chun teagmháil a dhéanamh le FuelCap. Is mór againn é agus beidh ball dár bhfoireann i dteagmháil gan mhoill chun aghaidh a thabhairt ar do theachtaireacht nó do cheist</string>
+    <string name="afConBtn1">Príomhroghchlár</string>
+    <string name="afConBtn2">Iarratas Scoir</string>
 </resources>

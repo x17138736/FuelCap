@@ -47,4 +47,18 @@
     <!-- Review class and .xml -->
     <string name="fBack">आपकी प्रतिक्रिया के लिए आपका धन्यवाद</string>
     <string name="revSub">प्रस्तुत</string>
+
+    <!-- Contact us page and related -->
+    <string name="fConUsPa">फ्यूलकैप हमसे संपर्क करें पृष्ठ!</string>
+    <string name="conEmail">ईमेल की पुष्टि करें</string>
+    <string name="conMsg">यहां अपना संदेश या क्वेरी टाइप करें</string>
+    <string name="snd">संदेश</string>
+    <string name="conFill">कृपया वापस जाएं और सभी फ़ील्ड भरें</string>
+    <string name="conIntNo">आपके पास इंटरनेट कनेक्शन नहीं है</string>
+    <string name="conNoEmail">ईमेल को भरने और एक @ प्रतीक शामिल करने की आवश्यकता है। धन्यवाद</string>
+
+    <!-- Page that is brought up after the contact message has been sent  -->
+    <string name="afConMsg">फ्यूलकैप से संपर्क करने के लिए समय निकालने के लिए धन्यवाद। हम इसकी सराहना करते हैं और हमारी टीम का सदस्य आपके संदेश या प्रश्न को संबोधित करने के लिए शीघ्र ही संपर्क में होगा</string>
+    <string name="afConBtn1">मुख्य मेनू</string>
+    <string name="afConBtn2">छोड़ने के लिए प्रार्थनापत्र</string>
 </resources>

@@ -45,5 +45,19 @@
     <string name="fBack">Gracias por tus comentarios</string>
     <string name="revSub">Enviar</string>
 
+    <!-- Contact us page and related -->
+    <string name="fConUsPa">FuelCap Contáctenos página!</string>
+    <string name="conEmail">Por favor confirme el correo electrónico</string>
+    <string name="conMsg">Escriba su mensaje o consulta aquí</string>
+    <string name="snd">Enviar</string>
+    <string name="conFill">Por favor regrese y complete todos los campos</string>
+    <string name="conIntNo">No tienes conexión a internet</string>
+    <string name="conNoEmail">El correo electrónico debe completarse y contener un símbolo @. Gracias</string>
+
+    <!-- Page that is brought up after the contact message has been sent  -->
+    <string name="afConMsg">Gracias por tomarse el tiempo de contactar FuelCap. Se lo agradecemos y un miembro de nuestro equipo se pondrá en contacto en breve para atender su mensaje o consulta.</string>
+    <string name="afConBtn1">Menú principal</string>
+    <string name="afConBtn2">Salir de la aplicación</string>
+
 
 </resources>
