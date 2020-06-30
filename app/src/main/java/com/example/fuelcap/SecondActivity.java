@@ -22,6 +22,7 @@ import java.util.Locale;
 import static com.example.fuelcap.R.id.btnContactUs;
 import static com.example.fuelcap.R.id.btnEVChargePoints;
 import static com.example.fuelcap.R.id.btnMaps;
+import static com.example.fuelcap.R.id.btnPavB;
 import static com.example.fuelcap.R.id.btnReview;
 
 public class SecondActivity extends AppCompatActivity {
@@ -35,6 +36,7 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
 
         Button maps=findViewById(btnMaps);
+        Button pavB=findViewById(btnPavB);
         Button EVChargePoints=findViewById(btnEVChargePoints);
         Button review=findViewById(btnReview);
         Button contactUs=findViewById(btnContactUs);
@@ -63,6 +65,13 @@ public class SecondActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 openContactUs();
+            }
+        });
+
+        pavB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openPriceAverage();
             }
         });
 
@@ -104,6 +113,10 @@ public class SecondActivity extends AppCompatActivity {
         firebaseAuth.signOut();
         finish();
         startActivity(new Intent(SecondActivity.this, MainActivity.class));
+    }
+    private void openPriceAverage(){
+        Intent intent=(new Intent(SecondActivity.this, FuelPricesAverageActivity.class));
+        startActivity(intent);
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
