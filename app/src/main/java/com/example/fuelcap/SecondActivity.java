@@ -41,6 +41,7 @@ public class SecondActivity extends AppCompatActivity {
         Button review=findViewById(btnReview);
         Button contactUs=findViewById(btnContactUs);
         Button logout=findViewById(R.id.btnLogout);
+        Button feedback=findViewById(R.id.btnFeedback);
 
 
         maps.setOnClickListener(new View.OnClickListener() {
@@ -65,6 +66,12 @@ public class SecondActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 openContactUs();
+            }
+        });
+        feedback.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openFeedback();
             }
         });
 
@@ -108,6 +115,10 @@ public class SecondActivity extends AppCompatActivity {
         Intent intent=new Intent(SecondActivity.this, ContactUs.class);
         startActivity(intent);
 
+    }
+    private void openFeedback(){
+        Intent intent=new Intent(SecondActivity.this, FeedbackActivity.class);
+        startActivity(intent);
     }
     private void Logout () {
         firebaseAuth.signOut();
