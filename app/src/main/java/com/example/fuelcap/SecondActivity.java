@@ -144,7 +144,7 @@ public class SecondActivity extends AppCompatActivity {
         else if (item.getItemId() == R.id.reviewpageMenu){
                 Intent intent=new Intent(SecondActivity.this, ReviewActivity.class);
                 startActivity(intent);
-        }
+       }
         else if (item.getItemId() == R.id.contactusMenu){
             Intent intent=new Intent(SecondActivity.this, ContactUs.class);
             startActivity(intent);

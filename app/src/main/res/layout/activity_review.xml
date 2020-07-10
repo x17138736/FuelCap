@@ -7,41 +7,69 @@
     tools:context=".ReviewActivity">
 
     <RatingBar
-        android:id="@+id/andRatingBar"
-        android:layout_width="300dp"
+        android:id="@+id/userRating"
+        android:layout_width="wrap_content"
         android:layout_height="75dp"
         android:numStars="5"
         android:stepSize="1"
-        app:layout_constraintBottom_toTopOf="@+id/subBtn1"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.408" />
+        app:layout_constraintVertical_bias="0.073" />
+
+    <TextView
+        android:id="@+id/userRatingText"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:gravity="start|top"
+        app:layout_constraintBottom_toTopOf="@+id/userTextReview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userRating"
+        app:layout_constraintVertical_bias="0.127" />
+
+    <TextView
+        android:id="@+id/userRatingTextComment"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:gravity="start|top"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userRatingText"
+        app:layout_constraintVertical_bias="0.064" />
+
+    <EditText
+        android:id="@+id/userTextReview"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:gravity="start|top"
+        android:inputType="text"
+        android:hint="Please fill in what you thought of the app here."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.645"
+        android:importantForAutofill="no" />
+
 
     <Button
-        android:id="@+id/subBtn1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:text="@string/revSub"
+        android:id="@+id/submitButton1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Submit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.832" />
+        app:layout_constraintTop_toBottomOf="@+id/userRating"
+        app:layout_constraintVertical_bias="0.777" />
 
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="300dp"
-        android:layout_height="200dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/subBtn1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/andRatingBar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
