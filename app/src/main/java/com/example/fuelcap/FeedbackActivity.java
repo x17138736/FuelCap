@@ -21,6 +21,7 @@ public class FeedbackActivity extends AppCompatActivity {
         setContentView(R.layout.activity_feedback);
 
         userEmail = findViewById(R.id.userEmail);
+        userEmail.setVisibility(View.INVISIBLE);
         topic = findViewById(R.id.topic);
         messageBody = findViewById(R.id.messageBody);
 

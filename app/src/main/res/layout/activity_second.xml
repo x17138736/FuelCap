@@ -79,15 +79,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.885" />
 
-    <Button
-        android:id="@+id/btnFeedback"
-        android:layout_width="280dp"
-        android:layout_height="75dp"
-        android:text="Feedback/issues"
-        app:layout_constraintBottom_toTopOf="@+id/btnPavB"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.564"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.858" />
 </androidx.constraintlayout.widget.ConstraintLayout>
