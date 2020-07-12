@@ -11,6 +11,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -43,7 +44,6 @@ public class SecondActivity extends AppCompatActivity {
         Button logout=findViewById(R.id.btnLogout);
 
 
-
         maps.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -69,7 +69,6 @@ public class SecondActivity extends AppCompatActivity {
             }
         });
 
-
         pavB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -89,7 +88,9 @@ public class SecondActivity extends AppCompatActivity {
     }
 
     private void openMaps () {
-        Intent intent=new Intent(SecondActivity.this, MapsActivity.class);
+        /*Intent intent=new Intent(SecondActivity.this, MapsActivity.class);
+        startActivity(intent);*/
+        Intent intent=new Intent(SecondActivity.this, EVChargePoints.class);
         startActivity(intent);
 
     }
@@ -97,6 +98,8 @@ public class SecondActivity extends AppCompatActivity {
     private void openEVChargePoints () {
         Intent intent=new Intent(SecondActivity.this, EVChargePoints.class);
         startActivity(intent);
+        Toast.makeText(getApplicationContext(), R.string.EVcp,
+                Toast.LENGTH_LONG).show();
 
     }
 
@@ -136,7 +139,7 @@ public class SecondActivity extends AppCompatActivity {
         else if (item.getItemId() == R.id.reviewpageMenu){
                 Intent intent=new Intent(SecondActivity.this, ReviewActivity.class);
                 startActivity(intent);
-       }
+        }
         else if (item.getItemId() == R.id.contactusMenu){
             Intent intent=new Intent(SecondActivity.this, ContactUs.class);
             startActivity(intent);

@@ -19,9 +19,14 @@
     <string name="review_page">Review Page</string>
     <string name="contact_us">Contact Us</string>
     <string name="languages">Languages</string>
-    <string name="maps">Maps</string>
+    <string name="maps">Fuel Stations</string>
     <string name="ev_charge_points">EV Charge Points</string>
     <string name="review">Review</string>
+
+    <!-- this is the message that will be shown between pressing the EV button and the page showing up.
+         It's not what I or we had in mind for the finished product but it's something. -->
+    <string name="EVcp">Please Type: EV Charge Point in the search bar above to find the closest charge point to your location</string>
+
 
     <!-- Verify ID message -->
     <string name="sCool">Stay cool, while you are verified!</string>
@@ -55,5 +60,12 @@
     <string name="afConMsg">Thank you for taking the time to contact FuelCap. We appreciate it and a member of our team will be in touch shortly to address your message or query</string>
     <string name="afConBtn1">Main Menu</string>
     <string name="afConBtn2">Exit Application</string>
+
+
+    <!-- Fuel Prices Page -->
+    <string name="prlAVG">Petrol Average</string>
+    <string name="dslAVG">Diesel average</string>
+    <string name="pPPL">€1.23 per liter</string>
+    <string name="dPPL">€1.15 per liter</string>
 
 </resources>

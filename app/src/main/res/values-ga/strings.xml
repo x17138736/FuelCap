@@ -19,9 +19,14 @@
     <string name="review_page">Leathanach Athbhreithnithe</string>
     <string name="contact_us">Glaoigh orainn</string>
     <string name="languages">Teangacha</string>
-    <string name="maps">Léarscáileanna</string>
+    <string name="maps">Stáisiúin Breosla</string>
     <string name="ev_charge_points">Pointí Muirir EV</string>
     <string name="review">Athbhreithniú</string>
+
+    <!-- this is the message that will be shown between pressing the EV button and the page showing up.
+         It's not what I or we had in mind for the finished product but it's something. -->
+    <string name="EVcp">Cineál le do thoil: Pointe Muirear EV sa bharra cuardaigh thuas chun an pointe muirir is gaire do do shuíomh a fháil</string>
+
 
     <!-- Verify ID message -->
     <string name="sCool">Fan fionnuar, agus tú fíoraithe!</string>
@@ -55,4 +60,10 @@
     <string name="afConMsg">Go raibh maith agat as do chuid ama a thógáil chun teagmháil a dhéanamh le FuelCap. Is mór againn é agus beidh ball dár bhfoireann i dteagmháil gan mhoill chun aghaidh a thabhairt ar do theachtaireacht nó do cheist</string>
     <string name="afConBtn1">Príomhroghchlár</string>
     <string name="afConBtn2">Iarratas Scoir</string>
+
+    <!-- Fuel Prices Page -->
+    <string name="prlAVG">Meán Peitril</string>
+    <string name="dslAVG">Meán díosail</string>
+    <string name="pPPL">€ 1.23 an lítear</string>
+    <string name="dPPL">€ 1.15 an lítear</string>
 </resources>

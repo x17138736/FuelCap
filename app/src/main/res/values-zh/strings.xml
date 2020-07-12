@@ -19,9 +19,14 @@
     <string name="review_page">评论页</string>
     <string name="contact_us">联系我们</string>
     <string name="languages">语言能力</string>
-    <string name="maps">地图</string>
+    <string name="maps">加油站</string>
     <string name="ev_charge_points">电动汽车充电点</string>
     <string name="review">评论</string>
+
+    <!-- this is the message that will be shown between pressing the EV button and the page showing up.
+         It's not what I or we had in mind for the finished product but it's something. -->
+    <string name="EVcp">请在上方搜索栏中输入：EV充电点，以找到离您最近的充电点</string>
+
 
     <!-- Verify ID message -->
     <string name="sCool">待您验证时保持冷静！</string>
@@ -55,4 +60,10 @@
     <string name="afConMsg">感谢您抽出宝贵时间与FuelCap联系。 非常感谢，我们的团队成员将尽快与您联系，以解决您的消息或疑问</string>
     <string name="afConBtn1">主菜单</string>
     <string name="afConBtn2">退出申请</string>
+
+    <!-- Fuel Prices Page -->
+    <string name="prlAVG">汽油平均</string>
+    <string name="dslAVG">柴油平均</string>
+    <string name="pPPL">每公升€1.23</string>
+    <string name="dPPL">每公升€1.15</string>
 </resources>
