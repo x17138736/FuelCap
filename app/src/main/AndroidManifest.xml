@@ -18,7 +18,6 @@
         <activity android:name=".AfterCon"></activity>
         <activity android:name=".ContactUs" />
         <activity android:name=".FuelPricesAverageActivity"/>
-        <activity android:name=".FeedbackActivity"/>
         <activity android:name=".ReviewActivity" />
         <activity android:name=".EVChargePoints" />
         <!--
