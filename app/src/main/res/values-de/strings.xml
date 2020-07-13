@@ -24,6 +24,7 @@
     <string name="maps">Tankstellen</string>
     <string name="ev_charge_points">EV-Ladepunkte</string>
     <string name="review">Rezension</string>
+    <string name="pa_SecAct">Preis Durchschnitt</string>
 
     <!-- this is the message that will be shown between pressing the EV button and the page showing up.
          It's not what I or we had in mind for the finished product but it's something. -->

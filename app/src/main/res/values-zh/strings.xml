@@ -22,6 +22,7 @@
     <string name="maps">加油站</string>
     <string name="ev_charge_points">电动汽车充电点</string>
     <string name="review">评论</string>
+    <string name="pa_SecAct">平均价格</string>
 
     <!-- this is the message that will be shown between pressing the EV button and the page showing up.
          It's not what I or we had in mind for the finished product but it's something. -->

@@ -27,6 +27,7 @@
     <string name="maps">ईंधन स्टेशनों</string>
     <string name="ev_charge_points">ईवी चार्ज अंक</string>
     <string name="review">समीक्षा</string>
+    <string name="pa_SecAct">मूल्य औसत</string>
 
     <!-- this is the message that will be shown between pressing the EV button and the page showing up.
          It's not what I or we had in mind for the finished product but it's something. -->

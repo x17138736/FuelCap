@@ -22,6 +22,7 @@
     <string name="maps">Estações de combustível</string>
     <string name="ev_charge_points">Pontos de Carga EV</string>
     <string name="review">Reveja</string>
+    <string name="pa_SecAct">Preço Médio</string>
 
     <!-- this is the message that will be shown between pressing the EV button and the page showing up.
          It's not what I or we had in mind for the finished product but it's something. -->

@@ -22,6 +22,7 @@
     <string name="maps">Stations d\'essence</string>
     <string name="ev_charge_points">Points de charge EV</string>
     <string name="review">La revue</string>
+    <string name="pa_SecAct">Prix moyen</string>
 
     <!-- this is the message that will be shown between pressing the EV button and the page showing up.
          It's not what I or we had in mind for the finished product but it's something. -->

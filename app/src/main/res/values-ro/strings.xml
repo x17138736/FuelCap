@@ -25,6 +25,7 @@
     <string name="maps">Stații de combustibil</string>
     <string name="ev_charge_points">Puncte de încărcare EV</string>
     <string name="review">Revizuire</string>
+    <string name="pa_SecAct">Preț mediu</string>
 
     <!-- this is the message that will be shown between pressing the EV button and the page showing up.
          It's not what I or we had in mind for the finished product but it's something. -->

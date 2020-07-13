@@ -22,6 +22,7 @@
     <string name="maps">Fuel Stations</string>
     <string name="ev_charge_points">EV Charge Points</string>
     <string name="review">Review</string>
+    <string name="pa_SecAct">Price Average</string>
 
     <!-- this is the message that will be shown between pressing the EV button and the page showing up.
          It's not what I or we had in mind for the finished product but it's something. -->
@@ -67,5 +68,6 @@
     <string name="dslAVG">Diesel average</string>
     <string name="pPPL">€1.23 per liter</string>
     <string name="dPPL">€1.15 per liter</string>
+
 
 </resources>

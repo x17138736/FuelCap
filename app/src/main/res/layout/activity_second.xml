@@ -71,7 +71,7 @@
         android:id="@+id/btnPavB"
         android:layout_width="280dp"
         android:layout_height="75dp"
-        android:text="Price Average"
+        android:text="@string/pa_SecAct"
         app:layout_constraintBottom_toTopOf="@+id/btnMaps"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.564"
