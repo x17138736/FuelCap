@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="search_address" type="id" />
+    <item name="petrolstation_nearby" type="id" />
+    <item name="electriccars_nearby" type="id" />
+    <item name="map" type="id" />
+    <item name="location_search" type="id" />
+    <item name="snippet" type="id" />
+    <item name="option_get_place" type="id" />
+</resources>

@@ -55,5 +55,6 @@
     <string name="afConMsg">Thank you for taking the time to contact FuelCap. We appreciate it and a member of our team will be in touch shortly to address your message or query</string>
     <string name="afConBtn1">Main Menu</string>
     <string name="afConBtn2">Exit Application</string>
+    <string name="option_get_place" />
 
 </resources>
