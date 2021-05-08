@@ -21,9 +21,15 @@
     <string name="review_page">Revisar página</string>
     <string name="contact_us">Contáctenos</string>
     <string name="languages">Idiomas</string>
-    <string name="maps">Mapas</string>
+    <string name="maps">Estaciones de combustible</string>
     <string name="ev_charge_points">Puntos de carga EV</string>
     <string name="review">revisión</string>
+    <string name="pa_SecAct">Precio promedio</string>
+
+    <!-- this is the message that will be shown between pressing the EV button and the page showing up.
+         It's not what I or we had in mind for the finished product but it's something. -->
+    <string name="EVcp">Escriba: Punto de carga EV en la barra de búsqueda de arriba para encontrar el punto de carga más cercano a su ubicación</string>
+
 
     <!-- Verify ID message -->
     <string name="sCool">¡Manténgase fresco hasta que sea verificado!</string>
@@ -58,6 +64,12 @@
     <string name="afConMsg">Gracias por tomarse el tiempo de contactar FuelCap. Se lo agradecemos y un miembro de nuestro equipo se pondrá en contacto en breve para atender su mensaje o consulta.</string>
     <string name="afConBtn1">Menú principal</string>
     <string name="afConBtn2">Salir de la aplicación</string>
+
+    <!-- Fuel Prices Page -->
+    <string name="prlAVG">Promedio de gasolina</string>
+    <string name="dslAVG">Promedio diesel</string>
+    <string name="pPPL">1,23 € por litro</string>
+    <string name="dPPL">1,15 € por litro</string>
 
 
 </resources>

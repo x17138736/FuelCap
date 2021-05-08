@@ -24,9 +24,15 @@
     <string name="review_page">समीक्षा पृष्ठ</string>
     <string name="contact_us">संपर्क करें</string>
     <string name="languages">बोली</string>
-    <string name="maps">मैप्स</string>
+    <string name="maps">ईंधन स्टेशनों</string>
     <string name="ev_charge_points">ईवी चार्ज अंक</string>
     <string name="review">समीक्षा</string>
+    <string name="pa_SecAct">मूल्य औसत</string>
+
+    <!-- this is the message that will be shown between pressing the EV button and the page showing up.
+         It's not what I or we had in mind for the finished product but it's something. -->
+    <string name="EVcp">कृपया टाइप करें: ईवी चार्ज प्वाइंट अपने खोज स्थान पर निकटतम बार में अपने स्थान के निकटतम चार्ज बिंदु को खोजने के लिए</string>
+
 
     <!-- Verify ID message -->
     <string name="sCool">जब तक आप सत्यापित नहीं हो जाते तब तक शांत रहें!</string>
@@ -61,4 +67,10 @@
     <string name="afConMsg">फ्यूलकैप से संपर्क करने के लिए समय निकालने के लिए धन्यवाद। हम इसकी सराहना करते हैं और हमारी टीम का सदस्य आपके संदेश या प्रश्न को संबोधित करने के लिए शीघ्र ही संपर्क में होगा</string>
     <string name="afConBtn1">मुख्य मेनू</string>
     <string name="afConBtn2">छोड़ने के लिए प्रार्थनापत्र</string>
+
+    <!-- Fuel Prices Page -->
+    <string name="prlAVG">पेट्रोल औसत</string>
+    <string name="dslAVG">डीजल का औसत</string>
+    <string name="pPPL">€ 1.23 प्रति लीटर</string>
+    <string name="dPPL">€ 1.15 प्रति लीटर</string>
 </resources>

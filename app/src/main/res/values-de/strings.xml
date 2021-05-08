@@ -21,9 +21,15 @@
     <string name="review_page">Seite überprüfen</string>
     <string name="contact_us">Kontaktiere uns</string>
     <string name="languages">Sprachen</string>
-    <string name="maps">Karten</string>
+    <string name="maps">Tankstellen</string>
     <string name="ev_charge_points">EV-Ladepunkte</string>
     <string name="review">Rezension</string>
+    <string name="pa_SecAct">Preis Durchschnitt</string>
+
+    <!-- this is the message that will be shown between pressing the EV button and the page showing up.
+         It's not what I or we had in mind for the finished product but it's something. -->
+    <string name="EVcp">Bitte geben Sie: EV Charge Point in die Suchleiste oben ein, um den nächstgelegenen Ladepunkt zu Ihrem Standort zu finden</string>
+
 
     <!-- Verify ID message -->
     <string name="sCool">Bleib cool, bis du verifiziert bist!</string>
@@ -57,5 +63,11 @@
     <string name="afConMsg">Vielen Dank, dass Sie sich die Zeit genommen haben, FuelCap zu kontaktieren. Wir freuen uns darüber und ein Mitglied unseres Teams wird sich in Kürze mit Ihnen in Verbindung setzen, um Ihre Nachricht oder Anfrage zu beantworten</string>
     <string name="afConBtn1">Hauptmenü</string>
     <string name="afConBtn2">Anwendung verlassen</string>
+
+    <!-- Fuel Prices Page -->
+    <string name="prlAVG">Benzindurchschnitt</string>
+    <string name="dslAVG">Diesel Durchschnitt</string>
+    <string name="pPPL">1,23 € pro Liter</string>
+    <string name="dPPL">1,15 € pro Liter</string>
 
 </resources>

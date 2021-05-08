@@ -39,10 +39,10 @@ public class FuelPricesAverageActivity extends AppCompatActivity {
 
     }
     public void openPetrolAverage(){
-        priceAv.setText("1.23 Euro per liter");
+        priceAv.setText(R.string.pPPL);
     }
     public void openDieselAverage(){
-        priceAv.setText("1.15 Euro per liter");
+        priceAv.setText(R.string.dPPL);
     }
 
 }

@@ -22,9 +22,15 @@
     <string name="review_page">Pagina de revizuire</string>
     <string name="contact_us">Contactează-ne</string>
     <string name="languages">Limbile</string>
-    <string name="maps">Hărți</string>
+    <string name="maps">Stații de combustibil</string>
     <string name="ev_charge_points">Puncte de încărcare EV</string>
     <string name="review">Revizuire</string>
+    <string name="pa_SecAct">Preț mediu</string>
+
+    <!-- this is the message that will be shown between pressing the EV button and the page showing up.
+         It's not what I or we had in mind for the finished product but it's something. -->
+    <string name="EVcp">Vă rugăm să tastați: punct de încărcare EV în bara de căutare de mai sus pentru a găsi cel mai apropiat punct de încărcare la locația dvs.</string>
+
 
     <!-- Verify ID message -->
     <string name="sCool">Rămâneți la rece până când sunteți confirmat!</string>
@@ -58,5 +64,11 @@
     <string name="afConMsg">Vă mulțumim pentru că ați luat timpul necesar pentru a contacta FuelCap. Îi apreciem și un membru al echipei noastre va fi în scurt timp pentru a vă adresa mesajul sau întrebarea</string>
     <string name="afConBtn1">Meniu principal</string>
     <string name="afConBtn2">Aplicația de ieșire</string>
+
+    <!-- Fuel Prices Page -->
+    <string name="prlAVG">Media benzinei</string>
+    <string name="dslAVG">Media diesel</string>
+    <string name="pPPL">€ 1,23 pe litru</string>
+    <string name="dPPL">€ 1,15 pe litru</string>
 
 </resources>

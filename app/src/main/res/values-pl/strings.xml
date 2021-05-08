@@ -19,9 +19,15 @@
     <string name="review_page">Strona przeglądu</string>
     <string name="contact_us">Skontaktuj się z nami</string>
     <string name="languages">Języki</string>
-    <string name="maps">Mapy</string>
+    <string name="maps">Stacje paliw</string>
     <string name="ev_charge_points">Punkty ładowania EV</string>
     <string name="review">Przejrzeć</string>
+    <string name="pa_SecAct">Średnia cena</string>
+
+    <!-- this is the message that will be shown between pressing the EV button and the page showing up.
+         It's not what I or we had in mind for the finished product but it's something. -->
+    <string name="EVcp">Wpisz: Punkt ładowania EV w pasku wyszukiwania powyżej, aby znaleźć punkt ładowania najbliższy Twojej lokalizacji</string>
+
 
     <!-- Verify ID message -->
     <string name="sCool">Zachowaj spokój, dopóki jesteś zweryfikowany!</string>
@@ -55,4 +61,10 @@
     <string name="afConMsg">Dziękujemy za poświęcenie czasu na skontaktowanie się z FuelCap. Doceniamy to, a członek naszego zespołu wkrótce skontaktuje się z Tobą, aby odpowiedzieć na Twoją wiadomość lub zapytanie</string>
     <string name="afConBtn1">Menu główne</string>
     <string name="afConBtn2">Wyjdź z aplikacji</string>
+
+    <!-- Fuel Prices Page -->
+    <string name="prlAVG">Średnia benzyna</string>
+    <string name="dslAVG">Średnia oleju napędowego</string>
+    <string name="pPPL">1,23 € za litr</string>
+    <string name="dPPL">1,15 € za litr</string>
 </resources>
